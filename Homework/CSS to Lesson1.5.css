@@ -1,0 +1,17 @@
+span{
+ background-color: cornflowerblue;
+width: 33%;
+height: 30px;
+display: inline-block;
+text-align:center;
+}
+
+img{
+    width: 497px;
+height: 500px;
+
+}
+h2{
+    background-color: darkgrey;
+    text-align: center;
+}
