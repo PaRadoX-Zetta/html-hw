@@ -25,9 +25,11 @@
     box-shadow: 5px 10px 5px lightblue;
     transform: scale(1.0);
     transition: 1s;
+
 }
 .box p{
     font-size: 12px;
+    padding: 5px;
 }
 .box h2{
     font-size: 18px;
