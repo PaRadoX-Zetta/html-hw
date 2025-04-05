@@ -1,0 +1,35 @@
+body{
+    margin: 2%;
+}
+
+header{
+    height: 60vh;
+    background-color: cornflowerblue;
+
+}
+footer{
+    height: 80vh;
+    background-color: cornflowerblue;
+
+}
+
+section{
+    height: 50vh;
+    width: 32%;
+    background-color: #113268;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+header, section, footer{
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
