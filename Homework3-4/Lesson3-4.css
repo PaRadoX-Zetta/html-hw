@@ -73,5 +73,30 @@ main button{
 main button:hover{
     transform: scale(1.1);
     transition:2s;
-    color:#537161;
+    color:#537161;}
+/*------------------------------test---------------------------------------------------------------*/
+
+
+section{
+display: flex;
+margin: 10px 0;
+
+}
+
+
+
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 50%;
+    flex-direction: column;
+    border: black solid 3px;
+    padding: 15px;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    color:#537161 ;
 }
