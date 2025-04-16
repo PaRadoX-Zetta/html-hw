@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson5-2</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+.animation{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.animation img {
+    height: 100px;}
+.batterfly{
+    animation: batterfly 2s ease-in-out infinite alternate;
+}
+
+@keyframes batterfly {
+    from{
+        transform: translate(0,0);
+    }
+    10%{
+        transform: translate(20px,10px);
+    }
+    20%{
+        transform: translate(40px,-15px);
+    }
+    30%{
+        transform: translate(60px,15px);
+    }
+    40%{
+        transform: translate(80px,-10px);
+    }
+    50%{
+        transform: translate(100px,10px);
+    }
+    60%{
+        transform: translate(120px,-15px);
+    }
+    70%{
+        transform: translate(140px,15px);
+    }
+    80%{
+        transform: translate(160px,-10px);
+    }
+    90%{
+        transform: translate(190px,10px);
+    }
+    to{
+        transform: translate(210px,0);
+    }
+}
+
+
+    </style>
+</head>
+<body>
+
+<div class="animation" >
+    <img class="batterfly" src="Images/pngtree-beautiful-batterfly-png-image.png" alt="battrefly">
+    <img style="width: 400px;height: 150px" class="grase" src="Images/pngtree-green-grass-stands-firm-garden-flat-design-png-image_6337975.png" alt="Train-road">
+
+</div>
+
+
+</body>
+</html>
