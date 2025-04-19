@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson</title>
+    <style>
+
+        #preloader {
+            padding-top:5vh;
+            height: 100vh;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .spinner {
+            width: 150px;
+            height: 150px;
+            border-top: 15px solid red;
+            border-bottom:15px solid green;
+            border-left: 15px solid blue;
+            border-right: 15px solid black;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="preloader">
+    <div class="spinner"></div>
+</div>
+
+
+<
