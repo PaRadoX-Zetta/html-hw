@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-registration{
+    height: 60vh;
+    width: 25vw;
+    background-color: white;
+    border: 1px solid gray;
+
+}
+
+.form-registration>div>h1{
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 50px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+input[type="text"], input[type="password"]{
+    width: 300px;
+    margin: 5px 5px 5px 5px;
+    height: 30px;
+
+}
+.form-registration form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.form-registration>form>button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px auto 15px auto;
+    background-color: #4CB4E1;
+    color: white;
+    font-weight: bold;
+}
+
+.form-registration>form>h4{
+margin: 14px auto 5px auto;
+}
+footer{
+    width: 25vw;
+    height: 50px;
+   border: 1px solid gray;
+text-align: center;
+}
+
+    </style>
+</head>
+<body>
+<div class="form-registration">
+    <div>
+        <h1>Instagram</h1>
+    </div>
+    <form>
+        <input type="text" name="login" placeholder="Номер телефону, імя користувача або емаіл" >
+        <input type="password" name="password" placeholder="Пароль" >
+        <button>Увійти</button>
+
+            <h4  style="color: gray"> АБО</h4>
+            <h4 style="color: blue" > <img style="width: 20px;height: 20px;vertical-align: middle;margin-right: 5px" src="images/communication.png">Увійти через
+                Facebook</h4>
+            <h5>Забули пароль?</h5>
+        <footer>
+            <p>Не маєте облікового запису? <span style="color: #4CB4E1;font-weight: bold">Зареєструйтеся</span></p>
+        </footer>
+    </form>
+
+</div>
+
+</body>
+</html>
