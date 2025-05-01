@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+
+    .wrap{
+        width:100%;
+        padding: 31px 16px;
+        gap: 40px;
+    }
+    .images{
+        width:100%;
+    }
+
+}
